@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeSide"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/favoriteSide"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="@string/favourites" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/aboutMeSide"
+                android:title="@string/about_me" />
+        </menu>
+    </item>
+
+
+
+</menu>

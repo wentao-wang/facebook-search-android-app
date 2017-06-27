@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/oneItem">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/favor"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/favorites_off" />
+
+
+    <ImageView
+        android:id="@+id/detail"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/details" />
+
+
+</LinearLayout>
